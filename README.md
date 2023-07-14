@@ -4,16 +4,19 @@ The main results are below:
 ##  QKD
   
   We simulated the quantum key distribution task between Alice and Bob with BB84 and B92 protocols.
+  
   <img width="698" alt="image" src="https://github.com/LiXiufan/qkd-sim/assets/96719493/4faed322-554e-4813-964a-80f11876297f">
 
 ##  Trusted nodes
   
   We designed the XOR encryption method between two generated keys. K12 = K1 + K2 (mod 2). Using this encryption method, we are able to implement the trusted node protocol and realize a long-distance information transmission between Alice, Bob, and Charlie.
+  
   <img width="420" alt="image" src="https://github.com/LiXiufan/qkd-sim/assets/96719493/22401143-3e36-48bc-8aed-1cf090cff001">
   
 ##  Eavesdropper
   
   We then consider the scenario when there is an Eavesdropper listening to the quantum and classical channels --- a man in the middle. By comparing the generated keys between the sender and receiver, we are able to estimate the error rate of the keys. If the error is larger than 20%, we attribute this error to Eavesdropper and abandon the channels.
+  
   <img width="634" alt="image" src="https://github.com/LiXiufan/qkd-sim/assets/96719493/f94a7821-b583-4b7d-ba41-4632045654b9">
   
 ## Network topology
