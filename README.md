@@ -4,6 +4,7 @@ The main results are below:
 ##  QKD
   
   We simulated the quantum key distribution task between Alice and Bob with BB84 and B92 protocols.
+  <img width="698" alt="image" src="https://github.com/LiXiufan/qkd-sim/assets/96719493/4faed322-554e-4813-964a-80f11876297f">
 
 ##  Trusted nodes
   
@@ -22,7 +23,6 @@ The main results are below:
 ## NQSN
 
   Eventually, we performed QKD with two trusted nodes and one Eavesdropper on the testbed infrastructure of the National Quantum-safe Networks (NQSN) in Singapore. The experiment demonstrates the feasibility and extendability of our simulation software.
-
 
 <img width="1434" alt="b68c2210e126edf675799e24cfcbd29" src="https://github.com/LiXiufan/qkd-sim/assets/96719493/111208b4-a727-43bf-93aa-0008d9693595">
 
